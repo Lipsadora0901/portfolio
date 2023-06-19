@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@400;700&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0081A7;
+    color: #FDFCDC;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #F07167;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #0081A7;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(237, 237, 242);
+}
+#element{
+    color:rgb(40, 40, 97) ;
+}
+.secondarticle{
+    max-width: 80vw;
+    margin: auto;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstarticle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+.firstarticle > section{
+    width: 30%;
+}
+.secondarticle h1{
+    font-size: 1.9rem;
+    height: 6vh;
+}
+
+ 
+.leftsection{
+    width: 50%;
+    font-size: 2rem;
+   
+}
+.leftsection .buttons{
+    padding: 23px;
+}
+.leftsection .btn{
+    padding: 12px ;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.rightsection img{
+  width: 100%;
+  margin: 50px 0;
+}
+.bold{
+    font-weight: bold;
+    color: #F07167;
+}
+main hr{
+    border: 0;
+    background-color: #F07167;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+.text-gray{
+    color: rgb(40, 40, 97);
+   
+}
+.box{
+    background: white;
+    width: 80vw;
+    height: 2px;   
+    margin: 56px 0 56px 0;
+    display: flex;
+    
+}
+.secondarticle .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+.imagetop{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.verticaltitle{
+    position: relative;
+    top: 75px;
+    width: 150px;
+}
+.verticaldes{
+    position: relative;
+    top: 86px;
+    color:rgb(40, 40, 97);
+    width: 150px;
+    font-size: 11px;
+}
+footer{
+    background-color: #F07167;
+}
+.footer{
+    display: flex;
+
+}
