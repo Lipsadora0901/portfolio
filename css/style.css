@@ -6,8 +6,8 @@
 }
 
 body{
-    background-color: #0081A7;
-    color: #FDFCDC;
+    background-color: #e3fffa;
+    color: #ffbdb9;
     font-family: 'Poppins', sans-serif;
 }
 nav{
@@ -27,14 +27,14 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: #0081A7;
+    color: #ffffff;
 }
 nav ul li a:hover{
     text-decoration: none;
-    color: rgb(237, 237, 242);
+    color: #ffdbd9;
 }
 #element{
-    color:rgb(40, 40, 97) ;
+    color:rgb(45, 145, 138) ;
 }
 .secondarticle{
     max-width: 80vw;
@@ -68,7 +68,7 @@ nav ul li a:hover{
 }
 .leftsection .btn{
     padding: 12px ;
-    background: #1e2167;
+    background: rgb(45, 145, 138);
     color: white;
     border: 2px solid white;
     font-size: 20px;
