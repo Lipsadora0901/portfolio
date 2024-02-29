@@ -4,128 +4,357 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lipsa's Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://fonts.google.com/share?query=poppins&sort=alpha">
+     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
-<body>
-    <header>
-        <nav>
-            <section class="left">Lipsa's Portfolio</section>
-            <section class="right">
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Services</a></li>
-                   <li><a href="/">Contact Me</a></li>
-                </ul>
-            </section>
-        </nav>
-    </header>
-    <main>
-        <article class="firstarticle">
-            <section class="leftsection">
-            
-                Hii, My Name is <span class="bold">Lipsa </span> 
-                <section>I'm an Undergraduate Student at <span class="bold">NIT Rourkela</span>  </section>
-                <span id="element"></span>
-                <div class="buttons">
-                    <buttom class="btn"><a href="https://github.com/Lipsadora0901">Visit GitHub</a></buttom>
-                    <buttom class="btn"><a href="https://www.linkedin.com/in/lipsa-dora-25681225b/">Visit linkedin</a></buttom>
+<body class="main-content">
+    <header class="section sec1 header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="images/hero.png" alt="" width="250" height="480">
                 </div>
-
-            </section>
-            <section class="rightsection">
-                <img src="okay.png" alt="okay" width="2000px">
-            </section>
-        </article>
-        <hr>
-        <section class="secondarticle">
-            <span class="text-gray">What I have done so far</span>
-            <h1>Projects</h1>
-            <div class="box">
-        <div class="vertical">
-            <p class="imagetop">🚀</p>
-            
-           <div class="verticaltitle">
-            PROJECT 1 
-           </div>
-           <div class="verticaldes">
-            <a href="https://lipsadora0901.github.io/portfolio/">Portfolio</a>
-           </div>
-
-        </div>
-        <div class="vertical">
-            <p class="imagetop">🚀</p>
-            
-           <div class="verticaltitle">
-            PROJECT 2
-           </div>
-           <div class="verticaldes">
-            <a href="https://lipsadora0901.github.io/Spotify_clone/">Spotify Clone</a>
-           </div>
-
-        </div>
-        <div class="vertical">
-            <p class="imagetop">🚀</p>
-            
-           <div class="verticaltitle">
-            PROJECT 3 
-           </div>
-           <div class="verticaldes">
-             <a href="https://lipsadora0901.github.io/Taco_shop/">Taco Shop</a>
-           </div>
-
-        </div>
-        <div class="vertical">
-            <p class="imagetop">🚀</p>
-            
-           <div class="verticaltitle">
-            PROJECT 4 
-           </div>
-           <div class="verticaldes">
-             <a href="https://lipsadora0901.github.io/Odisha_Tourism_App/">Odisha Tourism App</a>
-           </div>
-
-        </div>
-        <div class="vertical">
-            <p class="imagetop">🚀</p>
-            
-           <div class="verticaltitle">
-            PROJECT 5 
-           </div>
-           <div class="verticaldes">
-           
-           </div>
-
-        </div>
-        <div class="vertical">
-            <p class="imagetop">🚀</p>
-            
-           <div class="verticaltitle">
-            PROJECT 6
-           </div>
-           <div class="verticaldes">
-            
-           </div>
-
-
-        </div>
-        
-      
-        </div>
-       
             </div>
-         
-        </section>
+            <div class="right-header">
+                <h1 class="name">
+                    Hi, I'm <span>Lipsa Dora.</span>
+                    A Web Developer
+                </h1>
+                <p>
+                    A Pre-Final Year student pursuing B.tech in Ceamic Engineering at NIT Rourkela with a minor degree in Electronics and Communication Engineering. I'm a dedicated and driven Individual ,and am deeply passionate about technology. I thrive on coding and am keen to explore new horizons and to make meaningful contribution in the field of technology.
+                </p>
+                <div class="btn-con">
+                <a href="https://drive.google.com/drive/folders/1kxginpLlIaBlR1ekSCKvy3ps8iykOS0S" class="main-btn">
+                    <span class="btn-text">Download CV</span>
+                    <span class="btn-icon"><i class="fas fa-download"></i></span>
+                </a>
+            </div>
+            </div>
+        </div>
+    </header>
+<main>
+    <section class="section sec2 about" id="about">
+        <div class="main-title">
+            <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
+        </div>
+        <div class="about-container">
+            <div class="left-about">
+                <h4>Information about me</h4>
+                <p>
+                    I'm a hardworking, self-motivated and a tech enthusiast person. I'm very passionate about coding. I'm skilled in JAVA and have a good knowledge in HTML, CSS and basic knowledge in JAVASCRIPT. <br /> I believe in learning from past mistakes and experiences.
+                    <br />
 
-    </main>
-   
-   
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed('#element', {
-          strings: ['Ceramic Engg Student.', 'Front End Web-Developer.', 'Poster Designer.'],
-          typeSpeed: 50,
-        });
-      </script>
+                </p>
+                <div class="btn-con">
+                <a href="https://drive.google.com/drive/folders/1kxginpLlIaBlR1ekSCKvy3ps8iykOS0S" class="main-btn">
+                    <span class="btn-text">Download CV</span>
+                    <span class="btn-icon"><i class="fas fa-download"></i></span>
+                </a>
+            </div>
+            </div>
+            <div class="right-about">
+                <div class="about-item">
+                    <div class="abt-text">
+                        <p class="large-text">6+</p>
+                        <p class="small-text">Projects <br />Completed</p>
+                    </div>
+                </div>
+                <div class="about-item">
+                    <div class="abt-text">
+                        <p class="large-text">5+</p>
+                        <p class="small-text">certificates <br />of achievements</p>
+                    </div>
+                </div>
+                <div class="about-item">
+                    <div class="abt-text">
+                        <p class="large-text">100+</p>
+                        <p class="small-text">DSA problems <br />practice</p>
+                    </div>
+                </div>
+                <div class="about-item">
+                    <div class="abt-text">
+                        <p class="large-text">5+</p>
+                        <p class="small-text">Events <br />Co-ordinated at NITR</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-start">
+            <h4 class="stat-title">My Skills</h4>
+            <p>Java-95%</p>
+            <div class="w3-border">
+                <div class="w3-green" style="height:8px;width:95%"></div>
+            </div>
+            <p>html-90%</p>
+            <div class="w3-border">
+                <div class="w3-green" style="height:8px;width:90%"></div>
+            </div>
+            <p>css-80%</p>
+            <div class="w3-border">
+                <div class="w3-green" style="height:8px;width:80%"></div>
+            </div>
+            <p>javascript-70%</p>
+            <div class="w3-border">
+                <div class="w3-green" style="height:8px;width:70%"></div>
+            </div>
+        </div>
+        <h4 class="stat-title">My Timeline</h4>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="tl-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <p class="tl-duration">2021-2025</p>
+                <h5><span>B.tech in Ceramic Engineering</span></h5>
+                <p>
+                   Now I'm pursuing my major degree in Ceramic Engg with 8.44 cgpa and minor degree in ECE with 8.10 cgpa.
+                </p>
+            </div>
+                <br>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                <p class="tl-duration">may 2019</p>
+                <h5><span>Intermediate</span></h5>
+                <p>
+                    I completed my Intermediate on May 2019 with 87.6% marks. I got a rank of 132 in Odisha CHSE board for which i was awarded by sambad News-Paper Organization.
+                </p>
+            </div>
+                <br>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                <p class="tl-duration">may 2017</p>
+                <h5><span>Matriculation</span></h5>
+                <p>
+                    I completed my Matriculation on May 2017 with 92.5% marks. I scored highest in Dharmashala block for which i was awarded by Collector, MLA, and many Officers of our block.
+                </p>
+            </div>
+            
+        </div>
+    </section>
+    <section class="section sec3 portfolio" id="Portfolio">
+        <div class="main-title">
+            <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
+        </div>
+        <p class="port-text">
+            Here is some of my work that I've done in various programming languages.
+        </p>
+        <div class="portfolios">
+            <div class="portfolio-item">
+                <div class="image">
+                    <img src="images/port1.jpg" alt="">
+                </div>
+                <div class="hover-items">
+                    <h3>Project Source</h3>
+                    <div class="icons">
+                        <a href="https://lipsadora0901.github.io/Taco_shop/" class="icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="image">
+                    <img src="images/port2.jpg" alt="">
+                </div>
+                <div class="hover-items">
+                    <h3>Project Source</h3>
+                    <div class="icons">
+                        <a href="https://lipsadora0901.github.io/Spotify_clone/" class="icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="image">
+                    <img src="images/port3.jpg" alt="">
+                </div>
+                <div class="hover-items">
+                    <h3>Project Source</h3>
+                    <div class="icons">
+                        <a href="https://lipsadora0901.github.io/tic-tac-toe-game/" class="icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="image">
+                    <img src="images/port4.jpg" alt="">
+                </div>
+                <div class="hover-items">
+                    <h3>Project Source</h3>
+                    <div class="icons">
+                        <a href="https://lipsadora0901.github.io/game/" class="icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+    <section class="section sec4 " id="blogs">
+        <div class="main-title">
+            <h2>my <span>Certifications</span><span class="bg-text">my Certifications</span></h2>
+        </div>
+        <div class="blogs">
+            <div class="blog">
+                <img src="images/blog1.jpg" alt="">
+                <div class="blog-text">
+                    <h4>
+                        Java Programming
+                    </h4>
+                    <p>
+                        Completed Java programming, Data Structure Algorithms and got certified.
+                    </p>
+                </div>
+            </div>
+            <div class="blog">
+                <img src="images/blog3.jpg" alt="" width="400" height="600">
+                <div class="blog-text">
+                    <h4>
+                        TATA Imagination Challenge
+                    </h4>
+                    <p>
+                        Participated in Tata Imagination Challenge 2023 and got selected for round 3 and got certified.
+                    </p>
+                </div>
+            </div>
+            <div class="blog">
+                <img src="images/Mrittika 2.0.png" alt="" width="400" height="600">
+                <div class="blog-text">
+                    <h4>
+                        Participation Certificate in Mrittika 2.0
+                    </h4>
+                    <p>
+                        Received an authorized certification from InCerS student chapter, NITR.
+                    </p>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <section class="section sec5 contact" id="contact">
+        <div class="contact-container">
+            <div class="main-title">
+                <h2>Contact <span>Me</span><span class="bg-text">Contact Me</span></h2>
+            </div>
+            <div class="contact-content-con">
+                <div class="left-contact">
+                    <h4>Contact me here</h4>
+                    <p>
+                        You can cantact me from below details. Otherwise you can fill up the form along with your Email-id. My github, Linkedin, CodingNinjas, Leetcode and GFG links are available below my details. THANK YOU.
+                    </p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Location
+                            </div>
+                            <p>
+                                :Odisha, India
+                            </p>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fas fa-envelope"></i>
+                                <span>Email</span>
+                            </div>
+                            <p>
+                                <span>: lipsa.dora0901@gmail.com</span>
+                            </p>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Mobile</span>
+                            </div>
+                            <p>
+                                <span>: +91 7848984403</span>
+                            </p>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fas fa-language"></i>
+                                <span>Languages</span>
+                            </div>
+                            <p>
+                                <span>: Hindi, English, Odia</span>
+                            </p>
+                        </div>
+                    </div>
+                        <div class="contact-icons">
+                            <div class="contact-icon">
+                                <a href="https://www.linkedin.com/in/lipsa-dora-25681225b/">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://github.com/Lipsadora0901">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.codingninjas.com/studio/profile/lipsa0901">
+                                    <i class="fas fa-file-code"></i>
+                                </a>
+                                <a href="https://leetcode.com/Lipsa_Dora/">
+                                    <i class="fas fa-file-code"></i>
+                                </a>
+                                <a href="https://auth.geeksforgeeks.org/user/lipsadooi7x">
+                                    <i class="fas fa-file-code"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                
+                <div class="right-contact">
+                    <form action="https://httpbin.org/get" method="get" class="contact-form">
+                        <div class="input-control i-c-2">
+                            <input type="text" required placeholder="Your Name">
+                            <input type="Email" required placeholder="Your Email">
+                        </div>
+                        <div class="input-control">
+                            <input type="text" required placeholder="Enter Subject">
+                        </div>
+                        <div class="input-control">
+                            <textarea name="" id="" cols="15" rows="8" placeholder="Meesage here..."></textarea>
+                        </div>
+                        <div class="submit-btn">
+                            <a href="" class="main-btn">
+                                <span class="btn-text">Submit</span>
+                                <span class="btn-icon"><i class="fas fa-submit"></i></span>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+    <div class="controlls">
+        <div class="control control-1 active-btn" data-id="home">
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control control-2" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control control-3" data-id="Portfolio">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="control control-4" data-id="blogs">
+            <i class="fas fa-newspaper"></i>
+        </div>
+        <div class="control control-5" data-id="contact">
+            <i class="fas fa-envelope-open"></i>
+        </div>
+    </div>
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
