@@ -1,1 +1,1 @@
-I have made this portfolio using html, css. A portfolio is an online platform that showcases your best work to potential employers, clients, or collaborators. It typically includes a homepage, an 'About Me' or 'Contact' page, and individual project pages with images or videos. It serves as a professional tool to display your skills and accomplishments in a personalized and engaging way.
+I have made this portfolio using html, css, JavaScript. You can get to know about me from this website.
